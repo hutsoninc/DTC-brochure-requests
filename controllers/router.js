@@ -1,5 +1,5 @@
-var brochure = require('./brochure');
+var brochureResponse = require('./brochure-response');
 
 exports.webhookRoutes = function(router){
-  router.post('/brochure-request', brochure.create);
+  router.post('/brochure-request', brochureResponse.send);
 };

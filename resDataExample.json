@@ -1,0 +1,11 @@
+{ 
+    "event_name": "member_add",
+    "resource_url": "https://api.e2ma.net/1743199/members/1160010079",
+    "data": { 
+        "signup_form_id": null,
+        "timestamp": "@D:2017-12-21T11:01:11",
+        "group_ids": [ 3065183 ],
+        "account_id": 1743199,
+        "member_id": 1160010079
+    }
+}

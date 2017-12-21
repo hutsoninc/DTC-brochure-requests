@@ -10,26 +10,6 @@ var emma = new Emma({
 var webhookURL = process.env.HOST + "/brochure-request";
 
 emma.webhook.create({
-    event: "member_add_to_group", 
-    url: webhookURL
-}, (err, res) => console.log(res));
-
-emma.webhook.create({
-    event: "member_remove_from_group", 
-    url: webhookURL
-}, (err, res) => console.log(res));
-
-emma.webhook.create({
     event: "member_add", 
-    url: webhookURL
-}, (err, res) => console.log(res));
-
-emma.webhook.create({
-    event: "member_delete", 
-    url: webhookURL
-}, (err, res) => console.log(res));
-
-emma.webhook.create({
-    event: "member_update", 
     url: webhookURL
 }, (err, res) => console.log(res));
