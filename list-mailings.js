@@ -7,10 +7,10 @@ var emma = new Emma({
     accountID: process.env.EMMA_ACCOUNT_ID
 });
 /*
-emma.member.withID(1159983455).details((err,res) => 
+emma.mailing.list({mailing_types: "m", mailing_statuses: "c"}, (err,res) => 
     console.log(res)
 );
 */
-emma.member.withEmail("agordon@hutsoninc.com").details((err, res) =>
+emma.mailing.withID(33359199).details((err, res) =>
     console.log(res)
 );
