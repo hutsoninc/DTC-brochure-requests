@@ -21,6 +21,7 @@ routes.webhookRoutes(webhookRouter);
 app.use(webhookRouter);
 
 var server = http.createServer(app);
-server.listen(process.env.PORT, () => 
-    console.log("Express server running on port " + process.env.PORT)
-);
+
+server.listen(process.env.PORT, () => {
+    console.log("Express server running on port " + process.env.PORT);
+});
