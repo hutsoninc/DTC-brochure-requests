@@ -7,7 +7,7 @@ var emma = new Emma({
     accountID: process.env.EMMA_ACCOUNT_ID
 });
 
-var webhookURL = process.env.HOST + "/brochure-request";
+var webhookURL = process.env.HOST + "/content-request";
 
 emma.webhook.create({
     event: "member_add", 
