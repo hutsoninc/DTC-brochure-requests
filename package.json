@@ -1,12 +1,20 @@
 {
   "name": "gated-content-requests",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sets up and listens for Emma webhooks, then sends gated content to members who requested it.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": { 
+    "type" : "git",
+    "url" : "https://github.com/hutsoninc/gated-content-requests"
+  },
+  "author": {
+    "name": "Austin Gordon",
+    "email": "agordon@hutsoninc.com",
+    "url": "http://austinleegordon.com"
+  },
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.2",
