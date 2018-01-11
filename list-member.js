@@ -6,11 +6,15 @@ var emma = new Emma({
     privateKey: process.env.EMMA_PRIVATE_KEY,
     accountID: process.env.EMMA_ACCOUNT_ID
 });
+
+var memberEmail;
+
 /*
 emma.member.withID(1159983455).details((err,res) => 
     console.log(res)
 );
 */
-emma.member.withEmail("agordon@hutsoninc.com").details((err, res) =>
+
+emma.member.withEmail(memberEmail).details((err, res) =>
     console.log(res)
 );
