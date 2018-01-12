@@ -109,11 +109,11 @@ exports.send = function(req, res){
     function getMailingID(groupID){
 
         if(groupID == 3064159){
-            return 33369439; // 1025R
+            return 33650015; // 1025R
         }else if(groupID == 3065183){
-            return 33367391; // 3E
+            return 33648991; // 3E
         }else if(groupID == 3061087){
-            return 33366367; // 5E
+            return 33647967; // 5E
         }else{
             return undefined;
         }

@@ -8,8 +8,8 @@ var emma = new Emma({
     accountID: process.env.EMMA_ACCOUNT_ID
 });
 
-/*
-emma.mailing.list({mailing_types: "t"}, (err, res) => {
+
+emma.mailing.list({mailing_types: "m"}, (err, res) => {
 
     var jsonFormat = {res: res};
 
@@ -19,8 +19,9 @@ emma.mailing.list({mailing_types: "t"}, (err, res) => {
     });
 
 });
-*/
 
+/*
 emma.mailing.withID(33403231).details((err, res) => {
     console.log(res);
 });
+*/
