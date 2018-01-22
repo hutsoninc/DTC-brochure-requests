@@ -121,11 +121,13 @@ exports.send = function(req, res){
     }
 
     function sendMessage(mailingID, email){
+
+        var timestamp = new Date(Date.now()).toLocaleString();
         
         emma.mailing.withID(mailingID).resend({
             recipient_emails: [email]
         }, (err, res) => {
-            console.log({err: err, res: res});
+            console.log({date: timestamp, email: email, err: err, res: res});
         });
 
     }
