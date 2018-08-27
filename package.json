@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": { 
-    "type" : "git",
-    "url" : "https://github.com/hutsoninc/gated-content-requests"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hutsoninc/gated-content-requests"
   },
   "author": {
     "name": "Austin Gordon",
@@ -19,7 +19,7 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "dotenv": "^4.0.0",
-    "emma-sdk": "0.0.3",
+    "emma-sdk": "github:AustinLeeGordon/emma-sdk",
     "express": "^4.16.2"
   }
 }
